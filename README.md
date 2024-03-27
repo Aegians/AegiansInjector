@@ -1,5 +1,7 @@
 # AegiansInjector
 
+## I am not responsible for what this may be used for, this is only made for educational purposes.
+
 This program can injects DLL into running processes using thread hijacking. No remote thread is created, only existing thread is used for injection. 
 
 The injector injects shellcode into the target process, and then a running thread in the target process is hijacked to execute the injected code. The injected code calls the LoadLibrary function to load the DLL.
