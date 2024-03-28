@@ -4,7 +4,7 @@
 
 This program can injects DLL into running processes using thread hijacking. No remote thread is created, only existing thread is used for injection. 
 
-The injector injects shellcode into the target process, and then a running thread in the target process is hijacked to execute the injected code. The injected code calls the LoadLibrary function to load the DLL.
+The injector injects shellcode into the target process, and then a running thread in the target process is hijacked to execute the injected code. The injected code calls the LoadLibrary function to load the DLL. Please use this as an educational tool and learn to make your own thread hijacker.
 
 <details open>
 <summary>How it works?</summary>
