@@ -6,6 +6,17 @@ This program can injects DLL into running processes using thread hijacking. No r
 
 The injector injects shellcode into the target process, and then a running thread in the target process is hijacked to execute the injected code. The injected code calls the LoadLibrary function to load the DLL. Please use this as an educational tool and learn to make your own thread hijacker.
 
+<details open> 
+<summary> Showcase of my BE Thread Hijacker </summary>
+<br> 
+
+
+https://github.com/Aegians/AegiansInjector/assets/69432633/15a187e2-0ead-4756-85e6-061ce4d17332
+
+</details>
+
+
+
 <details open>
 <summary>How it works?</summary>
 <br>
